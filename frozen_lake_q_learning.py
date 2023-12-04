@@ -133,7 +133,8 @@ if __name__ == "__main__":
     rewards_per_episode = rewards/total_episodes
     average_rewards = np.mean(rewards_per_episode)
     tend = time.time() - t0
-    print(f'Running Time: {tend:0.2f} s')
+    ttotal = time.strftime("%H:%M:%S", time.gmtime(tend))
+    print(f'Running Time: {ttotal} h:m:s')
 
     fig, axis = plt.subplots()
     x = np.arange(NUM_RUNS)
