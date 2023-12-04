@@ -48,7 +48,7 @@ def epsilon_greedy(q_values, state, epsilon):
     :param epsilon:
     :return:
     """
-    coin = random.uniform(0, 1)
+    coin = rng.uniform(0, 1)
     if coin <= epsilon:
         action = env.action_space.sample()
     else:
