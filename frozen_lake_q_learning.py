@@ -138,3 +138,4 @@ if __name__ == "__main__":
     axis.set_xlabel('# Epochs')
     axis.set_ylabel('Reward per epoch')
     axis.set_title('Q - learning algorithm Frozen Lake v1')
+    plt.show()
