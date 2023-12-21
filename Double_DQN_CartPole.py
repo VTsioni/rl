@@ -198,8 +198,8 @@ def train():
 # Hyper-parameters (needs fixing)
 Batch_size = 128
 Gamma = 0.99
-Eps_start = 0.9
-Eps_end = 0.05
+Eps_start = 1.0
+Eps_end = 0.00
 Eps_decay = 1000
 Tau = 0.005
 Learning_Rate = 1e-4
